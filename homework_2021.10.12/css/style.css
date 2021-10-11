@@ -25,6 +25,7 @@ img {
   background-color: rgb(192, 122, 219);
   height: 600px;
   color: #fff;
+  position: relative;
   /*background: url(../img/firstview.png)no-repeat;
   background-size: cover;
   background-position: center right;*/
@@ -38,11 +39,28 @@ img {
 }
 .header-ttl {
   font-size: 25px;
+  margin-right: 20px;
 }
 .header-nav-list {
   display: flex;
 }
 .header-nav-item {
-  padding-right: 10%;
+  padding-right: 20px;
   padding-top: 10px;
+  font-size: 18px;
+}
+.firstview-ttl {
+  position: absolute;
+  height: 30%;
+  width: 35%;
+  top: 45%;
+  left: 10%;
+  background-color: rgb(205, 174, 206);
+  text-align: center;
+}
+.firstview-ttl-sub {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 22px;
 }
